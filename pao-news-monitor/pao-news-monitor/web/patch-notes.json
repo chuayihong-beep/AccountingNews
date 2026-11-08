@@ -1,0 +1,174 @@
+[
+ {
+  "date": "2026-11-08",
+  "title": "Run the jobs on a CAPA PC, without GitHub"
+ },
+ {
+  "date": "2026-11-07",
+  "title": "Accessibility and phone fixes across the site"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Edit the brief as story cards"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Daily brief moves to 12 noon"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Google News searches no longer get refused"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Update news and Create brief from the site"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Emails link to the story; one email is one item"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Daily brief and a new recap header"
+ },
+ {
+  "date": "2026-11-03",
+  "title": "Patch notes on the Admin tab"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "AI usage on the Admin tab"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "Delete a brief; delete removed items for good"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "Recap fixes: no own briefs from the inbox, no repeated stories, tidier titles"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "The brief becomes a recap in CAPA's newsletter layout; a cleaner website"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "Regional network group, a names-only leaders list, and leadership questions in Ask AI"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "Edit an item's title"
+ },
+ {
+  "date": "2026-10-30",
+  "title": "Background profiles for PAOs, and CAPA's own background in Ask AI"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Admin > People: Delete button"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Ask AI is now a tab inside the tracker"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Layout: Status page, account menu, and Ask AI evidence rules"
+ },
+ {
+  "date": "2026-10-26",
+  "title": "Ask AI: \"Whole region\" questions, and cleaner article picking"
+ },
+ {
+  "date": "2026-10-26",
+  "title": "AI-suggested relevance (you still decide) + calendar date filter"
+ },
+ {
+  "date": "2026-10-26",
+  "title": "Fix: \"Open for comment\" said \"None this week\" with a consultation waiting"
+ },
+ {
+  "date": "2026-10-23",
+  "title": "Smarter website scanning (page-pattern matching)"
+ },
+ {
+  "date": "2026-10-23",
+  "title": "NewsAPI removed from the daily run"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "Ready for Supabase's 30 October permission change"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "Fix: false \"Leadership change\" alerts from page-view counters"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Simpler tracker layout: CAPA logo, collapsible PAOs, filter dropdowns"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Relevance becomes High / Medium / Low / No relevance; \"Opportunity to comment\"; realistic AI suggestions"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Ask AI: clickable citations, sources list, tables; smarter article picking"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Fix: Ask AI answers stopping mid-sentence"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Fix: Ask AI stuck on \"Asking…\" forever"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Fix: Ask AI answers cut off and showing ### / ** symbols"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Fix: Ask AI \"Failed to send a request to the Edge Function\""
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Ask AI: real-time Q&A about a PAO"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Remove and restore items, automatic clean-up"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Two new categories: Insights & trends, Research & surveys"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "PAO-specific relevance tag"
+ },
+ {
+  "date": "2026-10-20",
+  "title": "Move an item to a different PAO"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "Custom roles with per-role permissions"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "Relevance: Regional / Country-specific / Not relevant"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "Newsletter / article item type"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "Brief only uses items published in the week; OCR date fixes"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "Send job skips quietly until set up"
+ }
+]

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Screenshots to Items</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230e5a57'/><path d='M8 10h16M8 16h16M8 22h10' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="ocr-page">
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="PAO News Monitor - News">
+      <img class="brand-logo" src="capa-logo.png" alt="CAPA - Confederation of Asian and Pacific Accountants" width="180" height="58">
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a class="nav-tab" href="index.html">News</a>
+      <a class="nav-tab" href="index.html#brief">Brief</a>
+      <a class="nav-tab" href="index.html#ask">Ask AI</a>
+      <a class="nav-tab" href="index.html#status">Status</a>
+    </nav>
+    <details class="profile" id="profile">
+      <summary class="profile-btn" aria-label="Your account">
+        <span class="avatar" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="9" r="4.2" fill="currentColor"/><path d="M4 21c1.2-4.2 4.2-6.3 8-6.3s6.8 2.1 8 6.3z" fill="currentColor"/></svg></span>
+        <svg class="chev" aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </summary>
+      <div class="profile-menu">
+        <p id="user" class="profile-email muted small"></p>
+        <a class="menu-item" href="index.html#password">Password</a>
+        <a id="admin-link" class="menu-item admin-only" href="index.html#admin" hidden>Admin</a>
+        <button id="signout" class="menu-item" type="button">Sign out</button>
+      </div>
+    </details>
+  </header>
+  <p class="page-intro muted small">Read in your browser - screenshots are never uploaded.</p>
+
+  <div id="signin-needed" class="error-box" hidden>Please <a href="index.html">sign in on the tracker</a> first, then come back here.</div>
+
+  <main id="ocr" class="ocr-main" hidden>
+    <section class="ocr-step">
+      <div class="ocr-setup">
+        <label class="ocr-pao">1. PAO for the next screenshots
+          <select id="pao"></select>
+        </label>
+        <label class="ocr-pao">Date it happened <span class="muted small">(optional)</span>
+          <input type="date" id="batch-date">
+          <span class="muted small">Used when a screenshot shows no readable date.</span>
+        </label>
+      </div>
+      <div id="drop" class="drop" tabindex="0">
+        <p><b>2. Drop screenshots here</b>, <label class="link"><input type="file" id="files" accept="image/*" multiple hidden>choose files</label>,
+          or paste with <kbd>Ctrl</kbd>+<kbd>V</kbd>.</p>
+        <p class="muted small">Change the PAO above between batches. Full posts with the name and date visible read best.</p>
+      </div>
+    </section>
+
+    <section class="ocr-step">
+      <div class="ocr-bar">
+        <h2>3. Check and fix <span id="count" class="muted small"></span></h2>
+        <div class="dialog-tools">
+          <button class="btn" id="dl-xlsx" type="button" disabled>Download Excel</button>
+          <button class="btn ghost" id="dl-csv" type="button" disabled>Download CSV</button>
+          <button class="btn primary" id="save" type="button" disabled>Save to tracker</button>
+          <button class="btn ghost" id="apply-date" type="button" disabled title="Set the date above on every row">Apply date to all</button>
+          <button class="btn ghost" id="clear" type="button" disabled>Clear all</button>
+        </div>
+      </div>
+      <p id="empty" class="empty-note">No screenshots yet.</p>
+      <ol id="rows" class="ocr-rows"></ol>
+    </section>
+  </main>
+
+  <dialog id="zoom" class="zoom"><img alt="Screenshot"><form method="dialog"><button class="btn">Close</button></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="config.js"></script>
+  <script src="ocr.js"></script>
+</body>
+</html>

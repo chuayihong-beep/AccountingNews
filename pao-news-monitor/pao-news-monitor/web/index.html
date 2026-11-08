@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PAO News Monitor</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230e5a57'/><path d='M8 10h16M8 16h16M8 22h10' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>">
+  <!-- Poppins: display text only (the recap title and section bars); everything else uses the system font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login" class="login" hidden>
+    <form id="login-form" class="login-card">
+      <h1>PAO News Monitor</h1>
+      <div class="login-tabs" role="tablist">
+        <button type="button" data-mode="signin" class="active">Sign in</button>
+        <button type="button" data-mode="signup">First time here</button>
+        <button type="button" data-mode="forgot">Forgot password</button>
+      </div>
+      <p id="login-help">Sign in with your work email and password.</p>
+      <label for="login-email">Email</label>
+      <input id="login-email" type="email" required autocomplete="email" placeholder="you@example.org">
+      <label for="login-password" class="pw">Password</label>
+      <input id="login-password" class="pw" type="password" autocomplete="current-password" minlength="8">
+      <label for="login-password2" class="pw2" hidden>Repeat password</label>
+      <input id="login-password2" class="pw2" type="password" autocomplete="new-password" minlength="8" hidden>
+      <button type="submit" class="btn primary" id="login-submit">Sign in</button>
+      <p id="login-msg" class="login-msg" role="status"></p>
+    </form>
+  </div>
+
+  <dialog id="pw-dialog">
+    <form method="dialog" id="pw-form" class="add-form">
+      <h2 id="pw-title">Set your password</h2>
+      <p class="muted small" id="pw-help">Choose a password (at least 8 characters). From now on you sign in with your email and this password - no more email links.</p>
+      <label>New password <input type="password" name="p1" minlength="8" required autocomplete="new-password"></label>
+      <label>Repeat password <input type="password" name="p2" minlength="8" required autocomplete="new-password"></label>
+      <p class="login-msg" id="pw-msg" role="status"></p>
+      <div class="dialog-actions">
+        <button value="cancel" formnovalidate class="btn ghost" id="pw-cancel">Later</button>
+        <button value="save" class="btn primary">Save password</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="app" hidden>
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="PAO News Monitor - News">
+        <img class="brand-logo" src="capa-logo.png" alt="CAPA - Confederation of Asian and Pacific Accountants" width="180" height="58">
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <button id="news-btn" class="nav-tab" type="button" aria-current="page">News</button>
+        <button id="brief-btn" class="nav-tab" type="button">Brief</button>
+        <button id="ask-nav" class="nav-tab" type="button">Ask AI</button>
+        <button id="status-btn" class="nav-tab" type="button">Status</button>
+      </nav>
+      <details class="profile" id="profile">
+        <summary class="profile-btn" aria-label="Your account">
+          <span class="avatar" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="9" r="4.2" fill="currentColor"/><path d="M4 21c1.2-4.2 4.2-6.3 8-6.3s6.8 2.1 8 6.3z" fill="currentColor"/></svg></span>
+          <svg class="chev" aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="profile-menu">
+          <p id="user" class="profile-email muted small"></p>
+          <button id="password-btn" class="menu-item" type="button" title="Set or change your password">Password</button>
+          <button id="admin-btn" class="menu-item admin-only" type="button">Admin</button>
+          <button id="signout" class="menu-item" type="button">Sign out</button>
+        </div>
+      </details>
+    </header>
+
+    <main class="page-main">
+    <div id="demo-banner" class="demo-banner" hidden>
+      Demo mode with sample data. Fill in <code>web/config.js</code> to connect your database.
+    </div>
+    <h1 class="sr-only">PAO News Monitor</h1>
+    <section id="brief-view" class="brief-view" hidden>
+      <div class="admin-head">
+        <h2>Brief</h2>
+        <button class="btn" id="brief-back" type="button">← Back to news</button>
+      </div>
+      <div class="brief-layout">
+        <div class="panel brief-side">
+          <details id="brief-create" class="brief-create" hidden open>
+            <summary><h3>Create a brief</h3></summary>
+            <div class="usage-range">
+              <label>From <input type="date" id="bc-from"></label>
+              <label>To <input type="date" id="bc-to"></label>
+            </div>
+            <div class="run-presets">
+              <button class="btn small" type="button" data-bc-preset="today">Today</button>
+              <button class="btn small" type="button" data-bc-preset="yesterday">Yesterday</button>
+              <button class="btn small" type="button" data-bc-preset="7">Last 7 days</button>
+              <button class="btn small" type="button" data-bc-preset="30">Last 30 days</button>
+              <button class="btn small" type="button" data-bc-preset="month">This month</button>
+              <button class="btn small" type="button" data-bc-preset="lastmonth">Last month</button>
+            </div>
+            <button class="btn primary" id="bc-run" type="button">Create brief</button>
+            <p class="run-status small" id="bc-status" hidden></p>
+            <p class="muted small">Covers the dates you pick, both included (UTC days). It appears below as a draft in about 5 minutes. Items rated Low or No relevance are left out.</p>
+          </details>
+          <h3>Briefs</h3><ol id="brief-list" class="brief-list"></ol>
+          <p class="muted small">A brief is written every day at about 12 noon from the past day's High and Medium items (plus any open opportunities to comment). Team members can edit; admins approve.</p></div>
+        <div class="panel brief-main">
+          <div class="brief-tools" id="brief-tools"></div>
+          <div id="brief-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="status-view" class="status-view" hidden>
+      <div class="admin-head">
+        <h2>Status</h2>
+        <button class="btn" id="status-back" type="button">← Back to news</button>
+      </div>
+      <div class="status-cards">
+        <div class="panel status-card">
+          <span class="muted small">Last check</span>
+          <strong id="st-last">—</strong>
+          <span class="muted small" id="st-last-sub"></span>
+        </div>
+        <div class="panel status-card">
+          <span class="muted small">Email inbox (press releases)</span>
+          <strong id="st-inbox">—</strong>
+          <span class="muted small" id="st-inbox-sub"></span>
+        </div>
+        <div class="panel status-card">
+          <span class="muted small">Sources needing a look</span>
+          <strong id="st-issues">—</strong>
+          <span class="muted small">Websites, Google News and page watch</span>
+        </div>
+      </div>
+      <details class="panel status-fold" id="st-issues-fold">
+        <summary><h3>Needs a look</h3> <span id="st-issues-count" class="chip"></span></summary>
+        <ul id="st-issues-list" class="status-list"></ul>
+      </details>
+      <div class="panel">
+        <h3>Every organisation</h3>
+        <p class="muted small">Each source's last check. Hover a chip for the details.</p>
+        <div class="table-wrap"><table class="grid" id="st-table"></table></div>
+      </div>
+    </section>
+
+    <section id="ask-view" class="ask-view" hidden>
+      <div class="admin-head">
+        <h2>Ask AI</h2>
+        <button class="btn" id="ask-back" type="button">← Back to news</button>
+      </div>
+      <p class="muted small">Ask about one PAO, or pick <b>Whole region</b> to compare across all of them. Answers are grounded only in what the monitor has collected.</p>
+      <div id="ai-demo" class="error-box" hidden>Ask AI needs a live database - it isn't available in demo mode.</div>
+      <div id="ai-no-perm" class="error-box" hidden>Your role doesn't include Ask AI. Ask an admin to tick it on the Admin tab.</div>
+      <div id="ai-main" class="ask-ai-body" hidden>
+        <div class="ask-ai-setup">
+          <label>Ask about
+            <select id="ai-pao"></select>
+          </label>
+          <button class="btn ghost" id="ai-new" type="button" disabled>New question</button>
+          <button class="btn ghost" id="ai-download" type="button" disabled>Download</button>
+        </div>
+        <div id="ai-thread" class="ask-ai-thread" aria-live="polite"></div>
+        <form id="ai-form" class="ask-ai-form">
+          <textarea id="ai-question" placeholder="e.g. What are possible routes of collaboration with this PAO?" rows="2" required></textarea>
+          <button class="btn primary" type="submit" id="ai-ask">Ask</button>
+        </form>
+        <p id="ai-note" class="muted small"></p>
+      </div>
+    </section>
+
+    <section id="admin-view" class="admin-view" hidden>
+      <div class="admin-head">
+        <h2>Admin</h2>
+        <button class="btn" id="admin-back" type="button">← Back to news</button>
+      </div>
+
+      <div class="panel" id="panel-people">
+        <h3>People</h3>
+        <p class="muted small">Give each person a role. What each role may do is set under <b>Roles</b> below. <b>No access</b>: can't see anything.</p>
+        <form id="person-add" class="person-add">
+          <input type="email" name="email" required placeholder="new.person@capa-apac.org" aria-label="Email">
+          <select name="role" aria-label="Role" id="person-role"></select>
+          <button class="btn primary" type="submit">Give access</button>
+        </form>
+        <p class="muted small">After you give someone access, tell them to open this page and click <b>First time here</b> to create their password.</p>
+        <div class="table-wrap"><table class="grid" id="people-table"></table></div>
+      </div>
+
+      <div class="panel" id="panel-roles">
+        <div class="admin-head">
+          <h3>Roles</h3>
+          <form id="role-add" class="person-add" style="flex:0 1 420px">
+            <input name="label" required maxlength="40" placeholder="New role, e.g. Comms team" aria-label="New role name">
+            <button class="btn primary" type="submit">Create role</button>
+          </form>
+        </div>
+        <p class="muted small">Tick what each role may do. <b>Admin</b> always has everything, and only admins can manage people and roles. Changes apply the next time people load the page.</p>
+        <div class="table-wrap"><table class="grid roles-grid" id="roles-table"></table></div>
+      </div>
+
+
+      <div class="panel" id="usage-panel" hidden>
+        <div class="usage-head">
+          <h3>AI usage</h3>
+        </div>
+        <div class="usage-range">
+          <label>From <input type="date" id="us-from"></label>
+          <label>To <input type="date" id="us-to"></label>
+          <button class="btn small" type="button" data-us-preset="month">This month</button>
+          <button class="btn small" type="button" data-us-preset="lastmonth">Last month</button>
+          <button class="btn small" type="button" data-us-preset="30">Last 30 days</button>
+          <span class="muted small">Dates are UTC (Malaysia time minus 8 hours), the same days AI providers bill by.</span>
+        </div>
+        <p class="muted small" id="us-note"></p>
+        <div class="status-cards" id="us-cards"></div>
+        <div class="usage-bars" id="us-bars" role="img" aria-label="Tokens used each day"></div>
+        <div class="usage-axis muted small" id="us-axis"></div>
+        <div class="table-wrap"><table class="grid" id="us-feature"></table></div>
+        <div class="table-wrap"><table class="grid" id="us-model"></table></div>
+        <details class="status-fold usage-price">
+          <summary><h3>Price used for the estimate</h3></summary>
+          <p class="muted small">Dollars per 1 million tokens. The default is Claude Haiku 5.5 for prompts up to 100,000 tokens. Most models the tracker uses today are on free plans, so the estimate is what the same work would cost on a paid model, not a bill.</p>
+          <div class="usage-price-row"><label>Input <input id="us-pin" type="number" min="0" step="0.01" value="0.10"></label><label>Output <input id="us-pout" type="number" min="0" step="0.01" value="0.50"></label></div>
+        </details>
+      </div>
+      <div class="panel" id="panel-mailing">
+        <div class="admin-head">
+          <h3>Mailing list (brief)</h3>
+          <span class="muted small" id="ml-count"></span>
+        </div>
+        <p class="muted small">People who get the brief. It's sent from your own Outlook with everyone in BCC (recipients can't see each other). Only admins can see this list.</p>
+        <form id="ml-add" class="person-add">
+          <input name="name" placeholder="Name (optional)" aria-label="Name" style="flex:1 1 160px">
+          <input name="email" type="email" required placeholder="email@example.org" aria-label="Email">
+          <input name="organisation" placeholder="Organisation (optional)" aria-label="Organisation" style="flex:1 1 160px">
+          <button class="btn primary" type="submit">Add</button>
+        </form>
+        <details class="ml-bulk">
+          <summary>Add many at once</summary>
+          <p class="muted small">Paste addresses from Outlook, Excel or anywhere - e.g. <code>Jane Tan &lt;jane@icai.in&gt;; bob@cpa.org</code>. Every email address found is added.</p>
+          <textarea id="ml-paste" rows="4"></textarea>
+          <button class="btn" id="ml-paste-add" type="button">Add these</button>
+        </details>
+        <div class="table-wrap"><table class="grid" id="ml-table"></table></div>
+      </div>
+
+      <div class="panel" id="panel-members">
+        <div class="admin-head">
+          <h3>Members (PAOs)</h3>
+          <div class="dialog-tools">
+            <button class="btn primary" id="member-add" type="button">+ Add member</button>
+            <button class="btn ghost" id="members-csv" type="button">Download list (CSV)</button>
+          </div>
+        </div>
+        <p class="muted small">Changes are picked up by the next daily collection. Deactivated members are hidden and no longer collected; their past items are kept.</p>
+        <div class="table-wrap"><table class="grid" id="members-table"></table></div>
+      </div>
+      <div class="panel" id="panel-patch">
+        <h3>Patch notes</h3>
+        <p class="muted small">What changed on the tracker, newest first.</p>
+        <ul class="patch-list" id="patch-list"></ul>
+        <button class="link small" type="button" id="patch-more" hidden></button>
+      </div>
+    </section>
+
+    <div class="filters" role="search">
+      <details class="multi" id="date-pick">
+        <summary><span class="multi-label">Dates</span> <span class="multi-value" id="date-value">Last 30 days</span></summary>
+        <div class="multi-panel cal-panel" role="dialog" aria-label="Choose dates">
+          <div class="cal-presets" role="group" aria-label="Quick ranges">
+            <button type="button" data-preset="1">24 hours</button>
+            <button type="button" data-preset="7">7 days</button>
+            <button type="button" data-preset="30">30 days</button>
+            <button type="button" data-preset="90">90 days</button>
+            <button type="button" data-preset="365">12 months</button>
+            <button type="button" data-preset="all">All time</button>
+          </div>
+          <div class="cal-wrap">
+            <button type="button" class="cal-nav prev" data-cal-nav="-1" aria-label="Previous month">&lsaquo;</button>
+            <div class="cal-months" id="cal-months"></div>
+            <button type="button" class="cal-nav next" data-cal-nav="1" aria-label="Next month">&rsaquo;</button>
+          </div>
+          <p class="cal-hint" id="cal-hint">Click a start date, then an end date. The small number is how many items are dated that day.</p>
+        </div>
+      </details>
+      <label>Show
+        <select id="f-status">
+          <option value="hide_not" selected>All except no relevance</option>
+          <option value="unreviewed">Unreviewed only</option>
+          <option value="ai_unchecked">AI-suggested, not yet reviewed</option>
+          <option value="ai_low_check">AI said Low / No - spot-check these</option>
+          <option value="high_med">High + Medium (brief material)</option>
+          <option value="high">High only</option>
+          <option value="medium">Medium only</option>
+          <option value="low">Low only</option>
+          <option value="none">No relevance only</option>
+          <option value="all">Everything</option>
+          <option value="removed">Removed (to restore)</option>
+        </select>
+      </label>
+      <details class="multi" id="scan-type">
+        <summary><span class="multi-label">Scan type</span> <span class="multi-value"></span></summary>
+        <div class="multi-panel" role="group" aria-label="Scan type">
+          <label><input type="checkbox" name="src" value="website" checked> Websites</label>
+          <label><input type="checkbox" name="src" value="google_news" checked> Google News</label>
+          <label><input type="checkbox" name="src" value="newsapi" checked> NewsAPI</label>
+          <label><input type="checkbox" name="src" value="email" checked> Email</label>
+          <label><input type="checkbox" name="src" value="manual" checked> Added by team</label>
+          <label><input type="checkbox" name="src" value="page_watch" checked> Page watch</label>
+          <hr>
+          <label title="Links found the first time a site was checked - may be old, never in the brief"><input type="checkbox" id="f-baseline"> Include first-scan links</label>
+          <div class="multi-tools"><button type="button" data-multi="all">All</button><button type="button" data-multi="none">None</button></div>
+        </div>
+      </details>
+      <details class="multi" id="news-type">
+        <summary><span class="multi-label">News type</span> <span class="multi-value"></span></summary>
+        <div class="multi-panel" role="group" aria-label="News type">
+          <label><input type="checkbox" name="kind" value="news" checked> News</label>
+          <label><input type="checkbox" name="kind" value="events" checked> Events</label>
+          <label><input type="checkbox" name="kind" value="publications" checked> Publications</label>
+          <label><input type="checkbox" name="kind" value="articles" checked> Newsletters / articles</label>
+          <label><input type="checkbox" name="kind" value="comment" checked> Opportunities to comment</label>
+          <label><input type="checkbox" name="kind" value="changes" checked> Leadership / contact changes</label>
+          <div class="multi-tools"><button type="button" data-multi="all">All</button><button type="button" data-multi="none">None</button></div>
+        </div>
+      </details>
+      <a id="ocr-link" class="btn ghost edit-only" href="ocr.html" title="Turn screenshots of posts into tracker items">OCR</a>
+      <button id="import-btn" class="btn ghost edit-only" type="button" title="Import items from an Excel or CSV file">Import</button>
+      <button id="run-news" class="btn" type="button" hidden title="Check every PAO's website, Google News and the email inbox now (admins)">Update news</button>
+      <button id="refresh" class="btn ghost icon-btn" type="button" title="Refresh" aria-label="Refresh">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button id="toggle-all" class="btn ghost" type="button">Expand all</button>
+      <button id="export" class="btn ghost" type="button" title="Download what's on screen as a spreadsheet">Export CSV</button>
+      <label class="search" id="search-wrap" title="Search titles, notes and categories">
+        <span class="sr-only">Search</span>
+        <input id="f-search" type="search" placeholder="Search" aria-label="Search titles, notes, categories">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      </label>
+    </div>
+
+    <p class="run-status small" id="run-news-status" hidden></p>
+
+    <div class="layout">
+      <div id="main" class="main"></div>
+    </div>
+    </main>
+  </div>
+
+  <dialog id="add-dialog">
+    <form method="dialog" id="add-form" class="add-form">
+      <h2>Add item for <span id="add-pao-name"></span></h2>
+      <p class="muted small">For things your team found elsewhere, e.g. on LinkedIn or in a newsletter.</p>
+      <label>Title <input name="title" required maxlength="300"></label>
+      <label>Link <input name="url" type="url" placeholder="https://"></label>
+      <label>Date <input name="date" type="date"></label>
+      <label>Notes <textarea name="notes" rows="3"></textarea></label>
+      <div class="dialog-actions">
+        <button value="cancel" formnovalidate class="btn ghost">Cancel</button>
+        <button value="save" class="btn primary">Add</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="member-dialog">
+    <form method="dialog" id="member-form" class="add-form">
+      <h2 id="member-form-title">Add member</h2>
+      <div class="two">
+        <label>Name * <input name="name" required maxlength="200"></label>
+        <label>Abbreviation * <input name="abbr" required maxlength="40"></label>
+      </div>
+      <div class="two">
+        <label>Group
+          <select name="grp"><option>Member</option><option>Associate</option><option>Affiliate</option><option>Stakeholder</option><option>Regional network</option></select>
+        </label>
+        <label>Country / jurisdiction <input name="jurisdiction" maxlength="200"></label>
+      </div>
+      <label>Website <input name="website" type="url" placeholder="https://"></label>
+      <label>Google News searches <input name="search_terms" placeholder='"Full name"|"ABBR"'>
+        <span class="muted small">Separate with |. Quotes = exact phrase. Leave empty to skip news search.</span></label>
+      <div class="two">
+        <label>Language / news edition
+          <input name="news_locale" list="locales" placeholder="en-US"></label>
+        <label>Facebook page (manual button) <input name="facebook" type="url" placeholder="https://www.facebook.com/..."></label>
+      </div>
+      <datalist id="locales">
+        <option value="en-US"><option value="en-AU"><option value="en-IN"><option value="en-MY"><option value="en-SG"><option value="en-PH">
+        <option value="en-PK"><option value="en-LK"><option value="en-NZ"><option value="en-GB"><option value="zh-CN"><option value="zh-HK">
+        <option value="zh-TW"><option value="ja-JP"><option value="ko-KR"><option value="vi-VN"><option value="fr-FR"><option value="id-ID">
+        <option value="th-TH"><option value="mn-MN"><option value="ne-NP"><option value="bn-BD">
+      </datalist>
+      <details>
+        <summary>Advanced (only if the automatic checks miss things)</summary>
+        <label>News / publications / events pages <input name="news_url" placeholder="https://x.org/news|publications>https://x.org/library">
+          <span class="muted small">Separate with |. Start with publications&gt; or events&gt; to label a page.</span></label>
+        <label>RSS feed <input name="feed_url" placeholder="https://x.org/feed"></label>
+        <label>Leadership page(s) <input name="leadership_url" placeholder="page listing the President / CEO"></label>
+        <label>Contact page <input name="contact_url"></label>
+        <label>Link selector <input name="link_selector" placeholder=".news-list a"></label>
+      </details>
+      <label>Notes <input name="notes" maxlength="300"></label>
+      <label class="check"><input type="checkbox" name="active" checked> Active (collected and shown)</label>
+      <p class="muted small" id="member-form-msg"></p>
+      <div class="dialog-actions">
+        <button value="delete" formnovalidate class="btn danger" id="member-delete" type="submit">Delete permanently…</button>
+        <span class="spacer"></span>
+        <button value="cancel" formnovalidate class="btn ghost">Cancel</button>
+        <button value="save" class="btn primary">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Import -->
+  <dialog id="import-dialog" class="wide">
+    <div class="dialog-head">
+      <h2>Import items</h2>
+      <div class="dialog-tools"><button class="btn ghost" data-close type="button">Close</button></div>
+    </div>
+    <p class="muted small">Excel or CSV with columns <b>PAO</b> (id, abbreviation or name), <b>Date</b>, <b>Type</b> (News / Event / Publication / Newsletter), <b>Title</b>, <b>Content</b>, <b>Posted by</b>, <b>Link</b>, <b>Language</b>.
+      Only PAO and Title or Content are required. The Screenshots (OCR) page downloads files in exactly this format.</p>
+    <p><input type="file" id="import-file" accept=".xlsx,.xls,.csv"></p>
+    <div id="import-preview"></div>
+    <div class="dialog-actions">
+      <span class="spacer"></span>
+      <button class="btn primary" id="import-save" type="button" disabled>Add to tracker</button>
+    </div>
+  </dialog>
+
+  <dialog id="send-dialog">
+    <div class="add-form">
+      <h2>Send the brief</h2>
+      <p id="send-summary"></p>
+      <button class="btn primary" id="send-now" type="button">Send now</button>
+      <p class="muted small">Emailed from <b>CAPA News Monitor</b> with everyone in BCC (recipients can't see each other) within about 10 minutes. Replies come to you.</p>
+      <details class="send-manual">
+        <summary>Or send it from your own Outlook instead</summary>
+        <ol class="send-steps">
+          <li><button class="btn" id="send-copy" type="button">1. Copy the brief</button></li>
+          <li>2. Open a new email with the list in BCC:
+            <div class="dialog-tools">
+              <a class="btn" id="send-owa" target="_blank" rel="noopener">Outlook on the web</a>
+              <a class="btn" id="send-mailto">Outlook app</a>
+            </div>
+            <p class="muted small" id="send-long" hidden>The list is too long to pre-fill: use <b>Copy addresses</b> and paste into BCC.</p>
+            <button class="link small" id="send-copy-bcc" type="button">Copy addresses</button>
+          </li>
+          <li>3. Paste the brief (Ctrl+V), check it, Send.</li>
+          <li><button class="btn" id="send-done" type="button">4. I've sent it</button></li>
+        </ol>
+      </details>
+      <div class="dialog-actions"><button class="btn ghost" id="send-close" type="button">Close</button></div>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+  <script src="manage.js"></script>
+  <script src="brief-blocks.js"></script>
+  <script src="brief-editor.js"></script>
+  <script src="brief.js"></script>
+  <script src="ask-ai.js"></script>
+  <script src="run.js"></script>
+</body>
+</html>

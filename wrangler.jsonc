@@ -1,0 +1,7 @@
+{
+  "name": "pao-news-monitor",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./pao-news-monitor/pao-news-monitor/web"
+  }
+}

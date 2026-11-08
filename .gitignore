@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+pao-news-monitor/pao-news-monitor/data/
+pao-news-monitor/pao-news-monitor/local-runner/.env
+pao-news-monitor/pao-news-monitor/local-runner/.venv/
+pao-news-monitor/pao-news-monitor/local-runner/logs/
+pao-news-monitor/pao-news-monitor/local-runner/state.json

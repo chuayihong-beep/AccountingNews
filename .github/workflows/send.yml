@@ -1,0 +1,37 @@
+name: Send brief
+
+# Emails approved weekly briefs that an admin has asked to send (Weekly brief > Send to mailing list).
+# Checks every 10 minutes; finishes in seconds when there is nothing to send.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: send-brief
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: pao-news-monitor/pao-news-monitor
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Send
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python -m collector.send_brief

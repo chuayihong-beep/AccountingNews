@@ -1,0 +1,65 @@
+name: Brief
+
+on:
+  schedule:
+    - cron: "3 4 * * *"   # every day at 12:03 Malaysia time (04:03 UTC) - after the morning news review; GitHub may start it up to ~30 min late
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+    inputs:
+      days:
+        description: "How many days to cover, counting back from now (ignored when dates are given)"
+        required: false
+        default: "1"
+      from_date:
+        description: "Or: first date to cover, YYYY-MM-DD (the Brief tab on the site fills this in)"
+        required: false
+        default: ""
+      to_date:
+        description: "Last date to cover, YYYY-MM-DD, included"
+        required: false
+        default: ""
+      check_ai:
+        description: "Only test the AI keys (no brief is written)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  models: read               # (GitHub Models was retired in July 2026; harmless)
+
+concurrency:
+  group: brief
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: pao-news-monitor/pao-news-monitor
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Write the brief
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # free AI providers, tried in order (add as repository secrets to enable)
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DAYS: ${{ github.event.inputs.days || '1' }}
+          CHECK_AI: ${{ github.event.inputs.check_ai || 'false' }}
+          FROM_DATE: ${{ github.event.inputs.from_date }}
+          TO_DATE: ${{ github.event.inputs.to_date }}
+        run: |
+          if [ "$CHECK_AI" = "true" ]; then python -m collector.ai
+          elif [ -n "$FROM_DATE" ]; then python -m collector.brief --from "$FROM_DATE" --to "$TO_DATE"
+          else python -m collector.brief --days "$DAYS"; fi

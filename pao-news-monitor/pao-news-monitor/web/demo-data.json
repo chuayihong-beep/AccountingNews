@@ -1,0 +1,5600 @@
+{
+ "paos": [
+  {
+   "id": "cpa-australia",
+   "grp": "Member",
+   "jurisdiction": "Australia",
+   "name": "CPA Australia",
+   "abbr": "CPA Australia",
+   "website": "http://www.cpaaustralia.com.au",
+   "active": true,
+   "notes": "",
+   "sort_order": 0,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ipa",
+   "grp": "Member",
+   "jurisdiction": "Australia",
+   "name": "Institute of Public Accountants",
+   "abbr": "IPA",
+   "website": "http://www.publicaccountants.org.au",
+   "active": true,
+   "notes": "",
+   "sort_order": 1,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ca-anz",
+   "grp": "Member",
+   "jurisdiction": "Australia & New Zealand",
+   "name": "Chartered Accountants Australia and New Zealand",
+   "abbr": "CA ANZ",
+   "website": "http://www.charteredaccountantsanz.com",
+   "active": true,
+   "notes": "",
+   "sort_order": 2,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icab",
+   "grp": "Member",
+   "jurisdiction": "Bangladesh",
+   "name": "Institute of Chartered Accountants of Bangladesh",
+   "abbr": "ICAB",
+   "website": "http://www.icab.org.bd",
+   "active": true,
+   "notes": "",
+   "sort_order": 3,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icmab",
+   "grp": "Member",
+   "jurisdiction": "Bangladesh",
+   "name": "Institute of Cost & Management Accountants of Bangladesh",
+   "abbr": "ICMAB",
+   "website": "https://icmab.gov.bd/",
+   "active": true,
+   "notes": "",
+   "sort_order": 4,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "cicpa",
+   "grp": "Member",
+   "jurisdiction": "China, People's Republic of",
+   "name": "Chinese Institute of Certified Public Accountants",
+   "abbr": "CICPA",
+   "website": "http://www.cicpa.org.cn",
+   "active": true,
+   "notes": "",
+   "sort_order": 5,
+   "facebook": null,
+   "lang": "zh"
+  },
+  {
+   "id": "fica",
+   "grp": "Member",
+   "jurisdiction": "Fiji",
+   "name": "Fiji Institute of Chartered Accountants",
+   "abbr": "FICA",
+   "website": "https://fica.org.fj/",
+   "active": true,
+   "notes": "",
+   "sort_order": 6,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "hkicpa",
+   "grp": "Member",
+   "jurisdiction": "Hong Kong S.A.R., China",
+   "name": "Hong Kong Institute of Certified Public Accountants",
+   "abbr": "HKICPA",
+   "website": "https://www.hkicpa.org.hk/",
+   "active": true,
+   "notes": "",
+   "sort_order": 7,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icai",
+   "grp": "Member",
+   "jurisdiction": "India",
+   "name": "Institute of Chartered Accountants of India",
+   "abbr": "ICAI",
+   "website": "http://www.icai.org",
+   "active": true,
+   "notes": "",
+   "sort_order": 8,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icmai",
+   "grp": "Member",
+   "jurisdiction": "India",
+   "name": "Institute of Cost Accountants of India",
+   "abbr": "ICMAI",
+   "website": "https://www.icmai.in/Home/Index",
+   "active": true,
+   "notes": "",
+   "sort_order": 9,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "jicpa",
+   "grp": "Member",
+   "jurisdiction": "Japan",
+   "name": "Japanese Institute of Certified Public Accountants",
+   "abbr": "JICPA",
+   "website": "http://www.jicpa.or.jp",
+   "active": true,
+   "notes": "",
+   "sort_order": 10,
+   "facebook": null,
+   "lang": "ja"
+  },
+  {
+   "id": "kicpa",
+   "grp": "Member",
+   "jurisdiction": "Korea, Republic of",
+   "name": "Korean Institute of Certified Public Accountants",
+   "abbr": "KICPA",
+   "website": "http://www.kicpa.or.kr",
+   "active": true,
+   "notes": "",
+   "sort_order": 11,
+   "facebook": null,
+   "lang": "ko"
+  },
+  {
+   "id": "ca-maldives",
+   "grp": "Member",
+   "jurisdiction": "Maldives",
+   "name": "Institute of Chartered Accountants of the Maldives",
+   "abbr": "CA Maldives",
+   "website": "https://camaldives.org/",
+   "active": true,
+   "notes": "",
+   "sort_order": 12,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "monicpa",
+   "grp": "Member",
+   "jurisdiction": "Mongolia",
+   "name": "Mongolian Institute of Certified Public Accountants",
+   "abbr": "MonICPA",
+   "website": "http://www.monicpa.mn",
+   "active": true,
+   "notes": "Mongolian name: please verify spelling",
+   "sort_order": 13,
+   "facebook": null,
+   "lang": "mn"
+  },
+  {
+   "id": "ican",
+   "grp": "Member",
+   "jurisdiction": "Nepal",
+   "name": "Institute of Chartered Accountants of Nepal",
+   "abbr": "ICAN",
+   "website": "http://www.ican.org.np",
+   "active": true,
+   "notes": "Nepali name: please verify spelling",
+   "sort_order": 14,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icap",
+   "grp": "Member",
+   "jurisdiction": "Pakistan",
+   "name": "Institute of Chartered Accountants of Pakistan",
+   "abbr": "ICAP",
+   "website": "http://www.icap.org.pk",
+   "active": true,
+   "notes": "",
+   "sort_order": 15,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icmap",
+   "grp": "Member",
+   "jurisdiction": "Pakistan",
+   "name": "Institute of Cost & Management Accountants of Pakistan",
+   "abbr": "ICMAP",
+   "website": "https://www.icmainternational.com/",
+   "active": true,
+   "notes": "",
+   "sort_order": 16,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "cpapng",
+   "grp": "Member",
+   "jurisdiction": "Papua New Guinea",
+   "name": "Certified Practising Accountants of Papua New Guinea",
+   "abbr": "CPAPNG",
+   "website": "http://www.cpapng.org.pg",
+   "active": true,
+   "notes": "",
+   "sort_order": 17,
+   "facebook": "https://www.facebook.com/p/Certified-Practising-Accountants-Papua-New-Guinea-CPA-PNG-61570419023005/",
+   "lang": "en"
+  },
+  {
+   "id": "picpa",
+   "grp": "Member",
+   "jurisdiction": "Philippines",
+   "name": "Philippine Institute of Certified Public Accountants",
+   "abbr": "PICPA",
+   "website": "https://picpa.com.ph/",
+   "active": true,
+   "notes": "",
+   "sort_order": 18,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "sia",
+   "grp": "Member",
+   "jurisdiction": "Samoa",
+   "name": "Samoa Institute of Accountants",
+   "abbr": "SIA",
+   "website": "http://www.sia.org.ws",
+   "active": true,
+   "notes": "",
+   "sort_order": 19,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ca-sri-lanka",
+   "grp": "Member",
+   "jurisdiction": "Sri Lanka",
+   "name": "Institute of Chartered Accountants of Sri Lanka",
+   "abbr": "CA Sri Lanka",
+   "website": "http://www.casrilanka.com",
+   "active": true,
+   "notes": "",
+   "sort_order": 20,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "aatsl",
+   "grp": "Member",
+   "jurisdiction": "Sri Lanka",
+   "name": "Association of Accounting Technicians of Sri Lanka",
+   "abbr": "AATSL",
+   "website": "http://www.aatsl.lk",
+   "active": true,
+   "notes": "",
+   "sort_order": 21,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "cmasl",
+   "grp": "Member",
+   "jurisdiction": "Sri Lanka",
+   "name": "Institute of Certified Management Accountants of Sri Lanka",
+   "abbr": "CMASL",
+   "website": "http://www.cma-srilanka.org",
+   "active": true,
+   "notes": "",
+   "sort_order": 22,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "aicpa",
+   "grp": "Member",
+   "jurisdiction": "United States of America",
+   "name": "American Institute of Certified Public Accountants",
+   "abbr": "AICPA",
+   "website": "https://www.aicpa-cima.com",
+   "active": true,
+   "notes": "",
+   "sort_order": 23,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "vacpa",
+   "grp": "Member",
+   "jurisdiction": "Vietnam",
+   "name": "Vietnam Association of Certified Public Accountants",
+   "abbr": "VACPA",
+   "website": "http://www.vacpa.org.vn",
+   "active": true,
+   "notes": "",
+   "sort_order": 24,
+   "facebook": null,
+   "lang": "vi"
+  },
+  {
+   "id": "poa",
+   "grp": "Associate",
+   "jurisdiction": "D.P.R. Korea",
+   "name": "Pyongyang Office of Auditors of the D.P.R. of Korea",
+   "abbr": "POA",
+   "website": "",
+   "active": true,
+   "notes": "No website listed",
+   "sort_order": 25,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "isia",
+   "grp": "Associate",
+   "jurisdiction": "Solomon Islands",
+   "name": "Institute of Solomon Islands Accountants",
+   "abbr": "ISIA",
+   "website": "https://isia.org.sb/",
+   "active": true,
+   "notes": "",
+   "sort_order": 26,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "dipac",
+   "grp": "Affiliate",
+   "jurisdiction": "France",
+   "name": "Delegation Internationale pour l'Audit et la Comptabilite",
+   "abbr": "DIPAC",
+   "website": "https://dipacint.com/",
+   "active": true,
+   "notes": "",
+   "sort_order": 27,
+   "facebook": null,
+   "lang": "fr"
+  },
+  {
+   "id": "cncc",
+   "grp": "Affiliate",
+   "jurisdiction": "France",
+   "name": "Compagnie Nationale des Commissaires aux Comptes",
+   "abbr": "CNCC",
+   "website": "http://www.cncc.fr",
+   "active": true,
+   "notes": "",
+   "sort_order": 28,
+   "facebook": null,
+   "lang": "fr"
+  },
+  {
+   "id": "csoec",
+   "grp": "Affiliate",
+   "jurisdiction": "France",
+   "name": "Conseil Superieur de l'Ordre des Experts-Comptables",
+   "abbr": "CSOEC",
+   "website": "https://annuaire.experts-comptables.org/",
+   "active": true,
+   "notes": "",
+   "sort_order": 29,
+   "facebook": null,
+   "lang": "fr"
+  },
+  {
+   "id": "acca",
+   "grp": "Affiliate",
+   "jurisdiction": "United Kingdom",
+   "name": "Association of Chartered Certified Accountants",
+   "abbr": "ACCA",
+   "website": "http://www.accaglobal.com",
+   "active": true,
+   "notes": "",
+   "sort_order": 30,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "aat",
+   "grp": "Affiliate",
+   "jurisdiction": "United Kingdom",
+   "name": "Association of Accounting Technicians",
+   "abbr": "AAT",
+   "website": "http://www.aat.org.uk",
+   "active": true,
+   "notes": "",
+   "sort_order": 31,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "icaew",
+   "grp": "Affiliate",
+   "jurisdiction": "United Kingdom",
+   "name": "Institute of Chartered Accountants in England and Wales",
+   "abbr": "ICAEW",
+   "website": "http://www.icaew.com",
+   "active": true,
+   "notes": "",
+   "sort_order": 32,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ifac",
+   "grp": "Stakeholder",
+   "jurisdiction": "Global Organisation",
+   "name": "International Federation of Accountants",
+   "abbr": "IFAC",
+   "website": "https://www.ifac.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 33,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ae",
+   "grp": "Stakeholder",
+   "jurisdiction": "Recognised Regional Organisations and Acknowledged Accountancy Groupings",
+   "name": "Accountancy Europe",
+   "abbr": "AE",
+   "website": "https://accountancyeurope.eu/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 34,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "iaa",
+   "grp": "Stakeholder",
+   "jurisdiction": "Recognised Regional Organisations and Acknowledged Accountancy Groupings",
+   "name": "Inter-American Accounting Association",
+   "abbr": "IAA / AIC",
+   "website": "https://contadores-aic.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 35,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "pafa",
+   "grp": "Stakeholder",
+   "jurisdiction": "Recognised Regional Organisations and Acknowledged Accountancy Groupings",
+   "name": "Pan African Federation of Accountants",
+   "abbr": "PAFA",
+   "website": "https://pafa.org.za/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 36,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "afa",
+   "grp": "Stakeholder",
+   "jurisdiction": "Recognised Regional Organisations and Acknowledged Accountancy Groupings",
+   "name": "ASEAN Federation of Accountants",
+   "abbr": "AFA",
+   "website": "http://afa-accountants.org/home",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 37,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "safa",
+   "grp": "Stakeholder",
+   "jurisdiction": "Recognised Regional Organisations and Acknowledged Accountancy Groupings",
+   "name": "South Asian Federation of Accountants",
+   "abbr": "SAFA",
+   "website": "https://www.esafa.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 38,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "iasb",
+   "grp": "Stakeholder",
+   "jurisdiction": "Standard Setters",
+   "name": "International Accounting Standards Board (IFRS Foundation)",
+   "abbr": "IASB",
+   "website": "https://www.ifrs.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 39,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "iaasb",
+   "grp": "Stakeholder",
+   "jurisdiction": "Standard Setters",
+   "name": "International Auditing and Assurance Standards Board",
+   "abbr": "IAASB",
+   "website": "https://www.iaasb.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 41,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ipae",
+   "grp": "Stakeholder",
+   "jurisdiction": "Standard Setters",
+   "name": "International Panel on Accountancy Education",
+   "abbr": "IPAE",
+   "website": "https://www.ifac.org/who-we-are/advisory-groups/international-panel-accountancy-education",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 42,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "iesba",
+   "grp": "Stakeholder",
+   "jurisdiction": "Standard Setters",
+   "name": "International Ethics Standards Board for Accountants",
+   "abbr": "IESBA",
+   "website": "https://www.ethicsboard.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 43,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "ipsasb",
+   "grp": "Stakeholder",
+   "jurisdiction": "Standard Setters",
+   "name": "International Public Sector Accounting Standards Board",
+   "abbr": "IPSASB",
+   "website": "https://www.ipsasb.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 44,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "intosai",
+   "grp": "Stakeholder",
+   "jurisdiction": "Supreme Audit Institutions",
+   "name": "International Organization of Supreme Audit Institutions",
+   "abbr": "INTOSAI",
+   "website": "https://www.intosai.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 45,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "asosai",
+   "grp": "Stakeholder",
+   "jurisdiction": "Supreme Audit Institutions",
+   "name": "Asian Organization of Supreme Audit Institutions",
+   "abbr": "ASOSAI",
+   "website": "https://www.asosai.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 46,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "pasai",
+   "grp": "Stakeholder",
+   "jurisdiction": "Supreme Audit Institutions",
+   "name": "Pacific Association of Supreme Audit Institutions",
+   "abbr": "PASAI",
+   "website": "https://www.pasai.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 47,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "afrosai-e",
+   "grp": "Stakeholder",
+   "jurisdiction": "Supreme Audit Institutions",
+   "name": "African Organisation of English-speaking Supreme Audit Institutions",
+   "abbr": "AFROSAI-E",
+   "website": "https://afrosai-e.org.za/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 48,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "adb",
+   "grp": "Stakeholder",
+   "jurisdiction": "Development Partners",
+   "name": "Asian Development Bank",
+   "abbr": "ADB",
+   "website": "https://www.adb.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 49,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "wbg",
+   "grp": "Stakeholder",
+   "jurisdiction": "Development Partners",
+   "name": "The World Bank Group",
+   "abbr": "WBG",
+   "website": "https://www.worldbank.org/",
+   "active": true,
+   "notes": "Website only (news search off: too broad)",
+   "sort_order": 50,
+   "facebook": null,
+   "lang": "en"
+  },
+  {
+   "id": "_unmatched_email",
+   "grp": "Inbox",
+   "jurisdiction": "",
+   "name": "Unmatched emails",
+   "abbr": "Inbox",
+   "website": "",
+   "active": true,
+   "notes": "Emails that couldn't be matched to a PAO",
+   "sort_order": 51,
+   "facebook": null,
+   "lang": ""
+  }
+ ],
+ "items": [
+  {
+   "kind": "news",
+   "id": "9b86eb56a364c098452d5ba1",
+   "pao_id": "picpa",
+   "source": "website",
+   "title": "SAMPLE - PICPA welcomes its new National President",
+   "url": "https://example.org/sample",
+   "published_at": null,
+   "snippet": "",
+   "content": "",
+   "source_name": "picpa.com.ph",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "be3acce4e918d839d6196277",
+   "pao_id": "picpa",
+   "source": "google_news",
+   "title": "SAMPLE - Accountancy body names new president at annual convention",
+   "url": "https://example.org/sample",
+   "published_at": "2026-09-11T08:58:25.225790+00:00",
+   "snippet": "Search: \"picpa\"",
+   "content": "",
+   "source_name": "Example Daily",
+   "language": "",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": "high",
+   "category": "Leadership / President",
+   "notes": "Confirm date with secretariat",
+   "reviewed_by": "colleague@example.org",
+   "reviewed_at": "2026-10-20T08:58:25.225790+00:00"
+  },
+  {
+   "kind": "news",
+   "id": "a214d8448a977f2e627335e1",
+   "pao_id": "picpa",
+   "source": "manual",
+   "title": "SAMPLE - Induction video posted on LinkedIn",
+   "url": "https://example.org/sample",
+   "published_at": "2026-08-07T08:58:25.225790+00:00",
+   "snippet": "",
+   "content": "",
+   "source_name": "you@example.org",
+   "language": "",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": "high",
+   "category": "Leadership / President",
+   "notes": null,
+   "reviewed_by": "colleague@example.org",
+   "reviewed_at": "2026-10-20T08:58:25.225790+00:00"
+  },
+  {
+   "kind": "news",
+   "id": "6035ba1218fc4cae49e32dbd",
+   "pao_id": "icai",
+   "source": "google_news",
+   "title": "SAMPLE - Institute announces revised exam schedule",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-19T08:58:25.225790+00:00",
+   "snippet": "Search: \"institute of chartered accountants of india\"",
+   "content": "",
+   "source_name": "Example Times",
+   "language": "",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-19T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "b09aabef08af8c7f6f14a313",
+   "pao_id": "icai",
+   "source": "website",
+   "title": "SAMPLE - Announcement regarding CPD hours for members",
+   "url": "https://example.org/sample",
+   "published_at": null,
+   "snippet": "",
+   "content": "",
+   "source_name": "icai.org",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": "none",
+   "category": null,
+   "notes": null,
+   "reviewed_by": "colleague@example.org",
+   "reviewed_at": "2026-10-20T08:58:25.225790+00:00"
+  },
+  {
+   "kind": "news",
+   "id": "4f7fb4c7370214e0b85419fe",
+   "pao_id": "icai",
+   "source": "newsapi",
+   "title": "SAMPLE - Chartered accountants' body signs MoU with regional federation",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-12T08:58:25.225790+00:00",
+   "snippet": "Accountancy bodies in the region signed an agreement to cooperate on education and standards.",
+   "content": "",
+   "source_name": "Example Wire",
+   "language": "",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "d63e4ed2fe882a264bb3aaef",
+   "pao_id": "jicpa",
+   "source": "google_news",
+   "title": "SAMPLE - 日本公認会計士協会、新会長を選出",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-15T08:58:25.225790+00:00",
+   "snippet": "Search: 日本公認会計士協会",
+   "content": "",
+   "source_name": "Example Shimbun",
+   "language": "ja",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "068dcf7d15dc75b683d46f45",
+   "pao_id": "kicpa",
+   "source": "website",
+   "title": "SAMPLE - 한국공인회계사회 공지사항: 회원 교육 일정 안내",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-09T08:58:25.225790+00:00",
+   "snippet": "",
+   "content": "",
+   "source_name": "kicpa.or.kr",
+   "language": "ko",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "ba37d2cbe509895de510709b",
+   "pao_id": "vacpa",
+   "source": "google_news",
+   "title": "SAMPLE - VACPA tổ chức hội nghị thường niên 2026",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-06T08:58:25.225790+00:00",
+   "snippet": "Search: \"vacpa\"",
+   "content": "",
+   "source_name": "Example Báo",
+   "language": "vi",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "7c9533f070998b8bd6d4cb63",
+   "pao_id": "hkicpa",
+   "source": "email",
+   "title": "SAMPLE - Press release: Institute statement on new auditing standard",
+   "url": "",
+   "published_at": "2026-10-20T08:58:25.225790+00:00",
+   "snippet": "The Institute welcomes the new standard and will issue member guidance next month...",
+   "content": "The Institute welcomes the new standard and will issue member guidance next month...\n\n(full email text would appear here)",
+   "source_name": "Communications <press@hkicpa.org.hk>",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-20T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "2c41245af9a7cf9b75728dbd",
+   "pao_id": "ca-sri-lanka",
+   "source": "website",
+   "title": "SAMPLE - Council election results announced",
+   "url": "https://example.org/sample",
+   "published_at": null,
+   "snippet": "",
+   "content": "",
+   "source_name": "casrilanka.com",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": "high",
+   "category": "Council & elections",
+   "notes": null,
+   "reviewed_by": "colleague@example.org",
+   "reviewed_at": "2026-10-20T08:58:25.225790+00:00"
+  },
+  {
+   "kind": "news",
+   "id": "180d21c43405f0b7ccba5f12",
+   "pao_id": "ifac",
+   "source": "website",
+   "title": "SAMPLE - IFAC congratulates new leadership at member bodies",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-13T08:58:25.225790+00:00",
+   "snippet": "",
+   "content": "",
+   "source_name": "ifac.org",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "094f17a2204303991349998d",
+   "pao_id": "_unmatched_email",
+   "source": "email",
+   "title": "SAMPLE - Newsletter: Regional accountancy update",
+   "url": "",
+   "published_at": "2026-10-17T08:58:25.225790+00:00",
+   "snippet": "This month's regional roundup...",
+   "content": "This month's regional roundup...\n\n(full email text would appear here)",
+   "source_name": "Newsletter <news@example.org>",
+   "language": "",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "3871a579b9f44055c7dc6d5b",
+   "pao_id": "cncc",
+   "source": "google_news",
+   "title": "SAMPLE - Évaluation d'entreprise : vers un jugement professionnel augmenté par l'IA",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-20T23:22:25.225790+00:00",
+   "snippet": "Search: \"compagnie nationale des commissaires aux comptes\"",
+   "content": "",
+   "source_name": "mesinfos",
+   "language": "",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-20T23:22:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "publications",
+   "id": "59b9884b257a444cc6c8489c",
+   "pao_id": "icai",
+   "source": "website",
+   "title": "SAMPLE - The Chartered Accountant Journal, October 2026 issue",
+   "url": "https://example.org/sample",
+   "published_at": null,
+   "snippet": "",
+   "content": "",
+   "source_name": "icai.org",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-20T20:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "events",
+   "id": "c848ed1c4c30022a1dbba22b",
+   "pao_id": "icai",
+   "source": "website",
+   "title": "SAMPLE - National Conference 2026: registration open",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-17T08:58:25.225790+00:00",
+   "snippet": "",
+   "content": "",
+   "source_name": "icai.org",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-18T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "leadership",
+   "id": "4c96e902b045f78fb761b7ce",
+   "pao_id": "icai",
+   "source": "page_watch",
+   "title": "Leadership changed on website: + CA Prasanna Kumar D | Vice-President",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-21T01:46:25.225790+00:00",
+   "snippet": "Removed:\n  - CA Charanjot Singh Nanda | Vice-President\nAdded:\n  + CA Prasanna Kumar D | Vice-President",
+   "content": "Before:\n(watched lines last time)\n\nNow:\n(watched lines today)",
+   "source_name": "icai.org",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-21T01:46:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "contact",
+   "id": "380171af8bfd49cf379ee2c9",
+   "pao_id": "ca-sri-lanka",
+   "source": "page_watch",
+   "title": "Contact details changed on website: + Phone: +94 11 235 2000",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-19T08:58:25.225790+00:00",
+   "snippet": "Removed:\n  - Phone: +94 11 235 2100\nAdded:\n  + Phone: +94 11 235 2000",
+   "content": "Before:\n(watched lines last time)\n\nNow:\n(watched lines today)",
+   "source_name": "casrilanka.com",
+   "language": "en",
+   "is_baseline": false,
+   "first_seen_at": "2026-10-19T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "b422a8fadef583c24971a0c5",
+   "pao_id": "icap",
+   "source": "website",
+   "title": "SAMPLE - Older page found on first scan #1",
+   "url": "https://example.org/sample",
+   "published_at": null,
+   "snippet": "",
+   "content": "",
+   "source_name": "icap.org.pk",
+   "language": "en",
+   "is_baseline": true,
+   "first_seen_at": "2026-10-19T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "a81e5117cad10c147250b6b6",
+   "pao_id": "icap",
+   "source": "website",
+   "title": "SAMPLE - Older page found on first scan #2",
+   "url": "https://example.org/sample",
+   "published_at": "2026-10-19T08:58:25.225790+00:00",
+   "snippet": "",
+   "content": "",
+   "source_name": "icap.org.pk",
+   "language": "en",
+   "is_baseline": true,
+   "first_seen_at": "2026-10-19T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  },
+  {
+   "kind": "news",
+   "id": "2b16fff1f598cd859a5bdb4d",
+   "pao_id": "icap",
+   "source": "website",
+   "title": "SAMPLE - Older page found on first scan #3",
+   "url": "https://example.org/sample",
+   "published_at": null,
+   "snippet": "",
+   "content": "",
+   "source_name": "icap.org.pk",
+   "language": "en",
+   "is_baseline": true,
+   "first_seen_at": "2026-10-19T08:58:25.225790+00:00",
+   "relevance": null,
+   "category": null,
+   "notes": null,
+   "reviewed_by": null,
+   "reviewed_at": null
+  }
+ ],
+ "health": [
+  {
+   "pao_id": "cpa-australia",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpa-australia",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpa-australia",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpa-australia",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-anz",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-anz",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-anz",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-anz",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icab",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icab",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icab",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icab",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmab",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmab",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmab",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmab",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cicpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cicpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cicpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cicpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "fica",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "fica",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "fica",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "fica",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "hkicpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "hkicpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "hkicpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "hkicpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icai",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icai",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icai",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icai",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmai",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmai",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmai",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmai",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "jicpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "jicpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "jicpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "jicpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "kicpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "kicpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "kicpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "kicpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-maldives",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-maldives",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-maldives",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-maldives",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "monicpa",
+   "source": "website",
+   "status": "error",
+   "message": "ConnectionError: site did not respond",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-12T08:58:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 3
+  },
+  {
+   "pao_id": "monicpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "monicpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "monicpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ican",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ican",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ican",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ican",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icap",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icap",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icap",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icap",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmap",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmap",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmap",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icmap",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpapng",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-08-02T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpapng",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpapng",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cpapng",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "picpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "picpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "picpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "picpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "sia",
+   "source": "website",
+   "status": "warning",
+   "message": "Scanned homepage only (no news page found); no links found - site may need JavaScript to show content",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "sia",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "sia",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "sia",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-sri-lanka",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-sri-lanka",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-sri-lanka",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ca-sri-lanka",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aatsl",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aatsl",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aatsl",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aatsl",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cmasl",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cmasl",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cmasl",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cmasl",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aicpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aicpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aicpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aicpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "vacpa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "vacpa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "vacpa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "vacpa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "poa",
+   "source": "website",
+   "status": "skipped",
+   "message": "No website listed",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "poa",
+   "source": "page_watch",
+   "status": "skipped",
+   "message": "No website listed",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "poa",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "poa",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "isia",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "isia",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "isia",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "isia",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "dipac",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "dipac",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "dipac",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "dipac",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cncc",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cncc",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cncc",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "cncc",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "csoec",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "csoec",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "csoec",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "csoec",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "acca",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "acca",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "acca",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "acca",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aat",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aat",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aat",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "aat",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icaew",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icaew",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icaew",
+   "source": "google_news",
+   "status": "ok",
+   "message": "2 search(es)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "icaew",
+   "source": "newsapi",
+   "status": "ok",
+   "message": "Search ok",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ifac",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ifac",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ifac",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ifac",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ae",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ae",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ae",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ae",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaa",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaa",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pafa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pafa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pafa",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pafa",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afa",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afa",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "safa",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "safa",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "safa",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "safa",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iasb",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iasb",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iasb",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iasb",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaasb",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaasb",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaasb",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iaasb",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipae",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipae",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipae",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipae",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iesba",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iesba",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iesba",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "iesba",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipsasb",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipsasb",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipsasb",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "ipsasb",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "intosai",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "intosai",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "intosai",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "intosai",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "asosai",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "asosai",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "asosai",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "asosai",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pasai",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pasai",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pasai",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "pasai",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afrosai-e",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afrosai-e",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afrosai-e",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "afrosai-e",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "adb",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "adb",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "adb",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "adb",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "wbg",
+   "source": "website",
+   "status": "ok",
+   "message": "Scanned 2 news page(s) + homepage",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 10,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "wbg",
+   "source": "page_watch",
+   "status": "ok",
+   "message": "Watching 1 leadership + 1 contact page(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": null,
+   "items_found": 0,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "wbg",
+   "source": "google_news",
+   "status": "skipped",
+   "message": "No search terms set",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-19T08:58:25.225790+00:00",
+   "items_found": 3,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "wbg",
+   "source": "newsapi",
+   "status": "skipped",
+   "message": "No plain search term",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-16T08:58:25.225790+00:00",
+   "items_found": 1,
+   "items_new": 0,
+   "consecutive_failures": 0
+  },
+  {
+   "pao_id": "_inbox",
+   "source": "email",
+   "status": "ok",
+   "message": "Read 4 email(s)",
+   "last_run_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_success_at": "2026-10-21T06:34:25.225790+00:00",
+   "last_new_at": "2026-10-20T08:58:25.225790+00:00",
+   "items_found": 4,
+   "items_new": 1,
+   "consecutive_failures": 0
+  }
+ ],
+ "briefs": [
+  {
+   "period_start": "2026-10-21T08:58:25+00:00",
+   "period_end": "2026-10-28T08:58:25+00:00",
+   "status": "draft",
+   "content": "# Weekly recap\n**22 Oct – 28 Oct 2026**\n\n> Draft written with AI (sample:demo) - please review before sending. The highlight summaries are written by AI from each article; titles link to the original pages. Items tagged (or AI-suggested) Low or No relevance are not included.\n\n## Highlights\n### [SAMPLE - IESBA opens consultation on technology and ethics](https://example.org/sample)\nIESBA · 27 Oct 2026 · Open for comment\nSAMPLE - IESBA is asking for views on how the Code should treat the use of AI and other technology by professional accountants. A coordinated response from Asia-Pacific PAOs would make the region's view more visible.\n\n### [SAMPLE - JICPA elects a new president](https://example.org/sample)\nJICPA · 25 Oct 2026 · Leadership\nSAMPLE - JICPA has elected a new president for the coming term. A congratulation letter and an early introduction to CAPA's work would be timely.\n\n## Other high\n- [SAMPLE - ICAI issues guidance on sustainability assurance](https://example.org/sample) · ICAI · 27 Oct 2026\n- [SAMPLE - PICPA welcomes its new National President](https://example.org/sample) · PICPA · 26 Oct 2026 · Leadership\n- [SAMPLE - CA Sri Lanka council election results](https://example.org/sample) · CA Sri Lanka · 24 Oct 2026 · Leadership\n\n## Medium\n- [SAMPLE - The Chartered Accountant Journal, October 2026 issue](https://example.org/sample) · ICAI · 26 Oct 2026\n- [SAMPLE - National Conference 2026: registration open](https://example.org/sample) · ICAI · 25 Oct 2026\n- [SAMPLE - Business valuation and professional judgement with AI](https://example.org/sample) · CNCC · 24 Oct 2026\n- [SAMPLE - Institute statement on a new auditing standard](https://example.org/sample) · HKICPA · 23 Oct 2026\n\n## No news found\nAAT, ACCA, ADB, AE, AFA, CA ANZ, CPA Australia, FICA, IPA, KICPA, VACPA.\n",
+   "sources": [],
+   "models_used": "sample:demo",
+   "stats": {
+    "items": 11,
+    "in_brief": 11,
+    "tagged": 11,
+    "quiet_paos": 44,
+    "notes": []
+   },
+   "created_at": "2026-10-28T08:58:25.230653+00:00",
+   "id": 2
+  },
+  {
+   "period_start": "2026-10-14T08:58:25+00:00",
+   "period_end": "2026-10-21T08:58:25+00:00",
+   "status": "draft",
+   "content": "# CAPA weekly intelligence brief\n**14 Oct - 21 Oct 2026**\n\n> Draft written by AI (sample:demo) - please review before sending. Facts link to their sources; *Regional implications* and *Suggested CAPA actions* are AI suggestions. Items tagged Low or No relevance are not included.\n\n## Open for comment\nNone this week.\n\n## Key developments\n### AI & digitalisation\n**What happened**\n- SAMPLE - JICPA elected a new president [5]\n**Regional implications**\n- SAMPLE interpretation.\n**Suggested CAPA actions**\n- SAMPLE - offer a webinar slot to share JICPA's priorities with the network.\n\n## Other updates\n- SAMPLE - The Chartered Accountant Journal October issue is out [2]\n\n## Leadership changes\n- SAMPLE - ICAI: new Vice-President [1]\n\n## Upcoming events and deadlines\n- SAMPLE - ICAI National Conference [3]\n\n## No news found this week\nAAT, AATSL, ACCA, ADB, AE, AFA, AFROSAI-E, AICPA, ASOSAI, CA ANZ, CA Maldives, CICPA, CMASL, CPA Australia, CPAPNG, CSOEC, DIPAC, FICA, IAA / AIC, IAASB, IASB, ICAB, ICAEW, ICAN, ICAP, ICMAB, ICMAI, ICMAP, IESBA, IFAC, INTOSAI, IPA, IPAE, IPSASB, ISIA, KICPA, MonICPA, PAFA, PASAI, POA, SAFA, SIA, VACPA, WBG.\n\n## Sources\n[1] ICAI: Leadership changed on website: + CA Prasanna Kumar D | Vice-President (2026-10-21) - https://example.org/sample\n[2] CNCC: SAMPLE - Évaluation d'entreprise : vers un jugement professionnel augmenté par l'IA (2026-10-20) - https://example.org/sample\n[3] ICAI: SAMPLE - The Chartered Accountant Journal, October 2026 issue (2026-10-20) - https://example.org/sample\n[4] HKICPA: SAMPLE - Press release: Institute statement on new auditing standard (2026-10-20)\n[5] CA Sri Lanka: Contact details changed on website: + Phone: +94 11 235 2000 (2026-10-19) - https://example.org/sample\n[6] ICAI: SAMPLE - Institute announces revised exam schedule (2026-10-19) - https://example.org/sample\n[7] CA Sri Lanka: SAMPLE - Council election results announced (2026-10-18) - https://example.org/sample\n[8] PICPA: SAMPLE - PICPA welcomes its new National President (2026-10-18) - https://example.org/sample\n[9] Inbox: SAMPLE - Newsletter: Regional accountancy update (2026-10-17)\n[10] ICAI: SAMPLE - National Conference 2026: registration open (2026-10-17) - https://example.org/sample\n[11] JICPA: SAMPLE - 日本公認会計士協会、新会長を選出 (2026-10-15) - https://example.org/sample",
+   "sources": [
+    {
+     "n": 1,
+     "item_id": "4c96e902b045f78fb761b7ce",
+     "pao_id": "icai",
+     "pao": "ICAI",
+     "title": "Leadership changed on website: + CA Prasanna Kumar D | Vice-President",
+     "url": "https://example.org/sample",
+     "date": "2026-10-21",
+     "source": "page_watch"
+    },
+    {
+     "n": 2,
+     "item_id": "3871a579b9f44055c7dc6d5b",
+     "pao_id": "cncc",
+     "pao": "CNCC",
+     "title": "SAMPLE - Évaluation d'entreprise : vers un jugement professionnel augmenté par l'IA",
+     "url": "https://example.org/sample",
+     "date": "2026-10-20",
+     "source": "google_news"
+    },
+    {
+     "n": 3,
+     "item_id": "59b9884b257a444cc6c8489c",
+     "pao_id": "icai",
+     "pao": "ICAI",
+     "title": "SAMPLE - The Chartered Accountant Journal, October 2026 issue",
+     "url": "https://example.org/sample",
+     "date": "2026-10-20",
+     "source": "website"
+    },
+    {
+     "n": 4,
+     "item_id": "7c9533f070998b8bd6d4cb63",
+     "pao_id": "hkicpa",
+     "pao": "HKICPA",
+     "title": "SAMPLE - Press release: Institute statement on new auditing standard",
+     "url": "",
+     "date": "2026-10-20",
+     "source": "email"
+    },
+    {
+     "n": 5,
+     "item_id": "380171af8bfd49cf379ee2c9",
+     "pao_id": "ca-sri-lanka",
+     "pao": "CA Sri Lanka",
+     "title": "Contact details changed on website: + Phone: +94 11 235 2000",
+     "url": "https://example.org/sample",
+     "date": "2026-10-19",
+     "source": "page_watch"
+    },
+    {
+     "n": 6,
+     "item_id": "6035ba1218fc4cae49e32dbd",
+     "pao_id": "icai",
+     "pao": "ICAI",
+     "title": "SAMPLE - Institute announces revised exam schedule",
+     "url": "https://example.org/sample",
+     "date": "2026-10-19",
+     "source": "google_news"
+    },
+    {
+     "n": 7,
+     "item_id": "2c41245af9a7cf9b75728dbd",
+     "pao_id": "ca-sri-lanka",
+     "pao": "CA Sri Lanka",
+     "title": "SAMPLE - Council election results announced",
+     "url": "https://example.org/sample",
+     "date": "2026-10-18",
+     "source": "website"
+    },
+    {
+     "n": 8,
+     "item_id": "9b86eb56a364c098452d5ba1",
+     "pao_id": "picpa",
+     "pao": "PICPA",
+     "title": "SAMPLE - PICPA welcomes its new National President",
+     "url": "https://example.org/sample",
+     "date": "2026-10-18",
+     "source": "website"
+    },
+    {
+     "n": 9,
+     "item_id": "094f17a2204303991349998d",
+     "pao_id": "_unmatched_email",
+     "pao": "Inbox",
+     "title": "SAMPLE - Newsletter: Regional accountancy update",
+     "url": "",
+     "date": "2026-10-17",
+     "source": "email"
+    },
+    {
+     "n": 10,
+     "item_id": "c848ed1c4c30022a1dbba22b",
+     "pao_id": "icai",
+     "pao": "ICAI",
+     "title": "SAMPLE - National Conference 2026: registration open",
+     "url": "https://example.org/sample",
+     "date": "2026-10-17",
+     "source": "website"
+    },
+    {
+     "n": 11,
+     "item_id": "d63e4ed2fe882a264bb3aaef",
+     "pao_id": "jicpa",
+     "pao": "JICPA",
+     "title": "SAMPLE - 日本公認会計士協会、新会長を選出",
+     "url": "https://example.org/sample",
+     "date": "2026-10-15",
+     "source": "google_news"
+    }
+   ],
+   "models_used": "sample:demo",
+   "stats": {
+    "items": 11,
+    "in_brief": 11,
+    "tagged": 11,
+    "quiet_paos": 44,
+    "notes": []
+   },
+   "created_at": "2026-10-21T08:58:25.230653+00:00",
+   "id": 1
+  }
+ ],
+ "runs": [
+  {
+   "started_at": "2026-10-21T06:20:01.225790+00:00",
+   "finished_at": "2026-10-21T06:34:25.225790+00:00",
+   "summary": {
+    "new": 4
+   }
+  }
+ ],
+ "usage": [
+  {
+   "at": "2026-09-18T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3743,
+   "completion_tokens": 1024
+  },
+  {
+   "at": "2026-09-18T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3624,
+   "completion_tokens": 1213
+  },
+  {
+   "at": "2026-09-18T07:50:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7387,
+   "completion_tokens": 828
+  },
+  {
+   "at": "2026-09-18T02:20:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8298,
+   "completion_tokens": 587
+  },
+  {
+   "at": "2026-09-18T08:45:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10921,
+   "completion_tokens": 800
+  },
+  {
+   "at": "2026-09-18T02:37:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 11127,
+   "completion_tokens": 901
+  },
+  {
+   "at": "2026-09-19T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3870,
+   "completion_tokens": 1059
+  },
+  {
+   "at": "2026-09-19T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4031,
+   "completion_tokens": 997
+  },
+  {
+   "at": "2026-09-20T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3714,
+   "completion_tokens": 1198
+  },
+  {
+   "at": "2026-09-20T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4143,
+   "completion_tokens": 1273
+  },
+  {
+   "at": "2026-09-20T07:16:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9074,
+   "completion_tokens": 763
+  },
+  {
+   "at": "2026-09-21T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3788,
+   "completion_tokens": 1101
+  },
+  {
+   "at": "2026-09-21T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3919,
+   "completion_tokens": 1299
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3195,
+   "completion_tokens": 2627
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2822,
+   "completion_tokens": 2386
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3172,
+   "completion_tokens": 2377
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3091,
+   "completion_tokens": 2289
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2971,
+   "completion_tokens": 2150
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2925,
+   "completion_tokens": 2644
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3211,
+   "completion_tokens": 2133
+  },
+  {
+   "at": "2026-09-21T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2964,
+   "completion_tokens": 2357
+  },
+  {
+   "at": "2026-09-21T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  },
+  {
+   "at": "2026-09-21T08:25:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10637,
+   "completion_tokens": 901
+  },
+  {
+   "at": "2026-09-21T07:25:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8917,
+   "completion_tokens": 738
+  },
+  {
+   "at": "2026-09-21T10:34:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8835,
+   "completion_tokens": 744
+  },
+  {
+   "at": "2026-09-21T03:05:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 10727,
+   "completion_tokens": 668
+  },
+  {
+   "at": "2026-09-21T08:49:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9313,
+   "completion_tokens": 500
+  },
+  {
+   "at": "2026-09-21T05:32:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 6875,
+   "completion_tokens": 925
+  },
+  {
+   "at": "2026-09-22T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3844,
+   "completion_tokens": 1105
+  },
+  {
+   "at": "2026-09-22T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3606,
+   "completion_tokens": 949
+  },
+  {
+   "at": "2026-09-22T10:24:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7804,
+   "completion_tokens": 465
+  },
+  {
+   "at": "2026-09-22T07:40:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7865,
+   "completion_tokens": 618
+  },
+  {
+   "at": "2026-09-22T03:34:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10033,
+   "completion_tokens": 468
+  },
+  {
+   "at": "2026-09-22T03:03:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8050,
+   "completion_tokens": 785
+  },
+  {
+   "at": "2026-09-23T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3799,
+   "completion_tokens": 1110
+  },
+  {
+   "at": "2026-09-23T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3724,
+   "completion_tokens": 975
+  },
+  {
+   "at": "2026-09-23T03:31:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 6754,
+   "completion_tokens": 883
+  },
+  {
+   "at": "2026-09-23T09:30:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 11188,
+   "completion_tokens": 595
+  },
+  {
+   "at": "2026-09-23T03:52:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9298,
+   "completion_tokens": 938
+  },
+  {
+   "at": "2026-09-23T04:32:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7378,
+   "completion_tokens": 459
+  },
+  {
+   "at": "2026-09-23T03:10:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6924,
+   "completion_tokens": 624
+  },
+  {
+   "at": "2026-09-23T02:04:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8603,
+   "completion_tokens": 540
+  },
+  {
+   "at": "2026-09-24T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3795,
+   "completion_tokens": 1080
+  },
+  {
+   "at": "2026-09-24T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3720,
+   "completion_tokens": 1010
+  },
+  {
+   "at": "2026-09-24T03:11:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10386,
+   "completion_tokens": 893
+  },
+  {
+   "at": "2026-09-24T03:37:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8663,
+   "completion_tokens": 835
+  },
+  {
+   "at": "2026-09-24T07:07:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8101,
+   "completion_tokens": 656
+  },
+  {
+   "at": "2026-09-24T08:53:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6713,
+   "completion_tokens": 571
+  },
+  {
+   "at": "2026-09-24T09:40:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8080,
+   "completion_tokens": 554
+  },
+  {
+   "at": "2026-09-24T08:29:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 6802,
+   "completion_tokens": 834
+  },
+  {
+   "at": "2026-09-25T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3859,
+   "completion_tokens": 1027
+  },
+  {
+   "at": "2026-09-25T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3836,
+   "completion_tokens": 957
+  },
+  {
+   "at": "2026-09-25T04:56:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 11037,
+   "completion_tokens": 530
+  },
+  {
+   "at": "2026-09-25T09:10:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6865,
+   "completion_tokens": 465
+  },
+  {
+   "at": "2026-09-26T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3886,
+   "completion_tokens": 921
+  },
+  {
+   "at": "2026-09-26T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4098,
+   "completion_tokens": 1258
+  },
+  {
+   "at": "2026-09-27T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3883,
+   "completion_tokens": 1292
+  },
+  {
+   "at": "2026-09-27T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3604,
+   "completion_tokens": 1010
+  },
+  {
+   "at": "2026-09-27T10:27:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8311,
+   "completion_tokens": 676
+  },
+  {
+   "at": "2026-09-28T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3743,
+   "completion_tokens": 1081
+  },
+  {
+   "at": "2026-09-28T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3950,
+   "completion_tokens": 1032
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3192,
+   "completion_tokens": 2109
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3109,
+   "completion_tokens": 2488
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3061,
+   "completion_tokens": 2209
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2839,
+   "completion_tokens": 2664
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3081,
+   "completion_tokens": 2470
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2892,
+   "completion_tokens": 2625
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2884,
+   "completion_tokens": 2292
+  },
+  {
+   "at": "2026-09-28T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2882,
+   "completion_tokens": 2384
+  },
+  {
+   "at": "2026-09-28T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  },
+  {
+   "at": "2026-09-28T10:31:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9250,
+   "completion_tokens": 879
+  },
+  {
+   "at": "2026-09-28T10:12:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7512,
+   "completion_tokens": 948
+  },
+  {
+   "at": "2026-09-28T03:24:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9723,
+   "completion_tokens": 625
+  },
+  {
+   "at": "2026-09-28T02:58:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7725,
+   "completion_tokens": 493
+  },
+  {
+   "at": "2026-09-28T02:33:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9171,
+   "completion_tokens": 570
+  },
+  {
+   "at": "2026-09-28T07:55:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8012,
+   "completion_tokens": 735
+  },
+  {
+   "at": "2026-09-29T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3600,
+   "completion_tokens": 1169
+  },
+  {
+   "at": "2026-09-29T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3928,
+   "completion_tokens": 1293
+  },
+  {
+   "at": "2026-09-30T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3716,
+   "completion_tokens": 1159
+  },
+  {
+   "at": "2026-09-30T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3652,
+   "completion_tokens": 1223
+  },
+  {
+   "at": "2026-10-01T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3700,
+   "completion_tokens": 1192
+  },
+  {
+   "at": "2026-10-01T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3668,
+   "completion_tokens": 991
+  },
+  {
+   "at": "2026-10-01T08:36:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8960,
+   "completion_tokens": 915
+  },
+  {
+   "at": "2026-10-01T02:57:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9039,
+   "completion_tokens": 946
+  },
+  {
+   "at": "2026-10-02T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3839,
+   "completion_tokens": 1162
+  },
+  {
+   "at": "2026-10-02T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3929,
+   "completion_tokens": 1247
+  },
+  {
+   "at": "2026-10-02T02:07:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8353,
+   "completion_tokens": 574
+  },
+  {
+   "at": "2026-10-02T02:59:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8844,
+   "completion_tokens": 905
+  },
+  {
+   "at": "2026-10-03T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3923,
+   "completion_tokens": 957
+  },
+  {
+   "at": "2026-10-03T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3705,
+   "completion_tokens": 1127
+  },
+  {
+   "at": "2026-10-04T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3779,
+   "completion_tokens": 981
+  },
+  {
+   "at": "2026-10-04T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4088,
+   "completion_tokens": 1045
+  },
+  {
+   "at": "2026-10-05T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4003,
+   "completion_tokens": 1081
+  },
+  {
+   "at": "2026-10-05T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3743,
+   "completion_tokens": 1106
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2907,
+   "completion_tokens": 2340
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3027,
+   "completion_tokens": 2332
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3199,
+   "completion_tokens": 2483
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3212,
+   "completion_tokens": 2141
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2987,
+   "completion_tokens": 2386
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3013,
+   "completion_tokens": 2655
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2861,
+   "completion_tokens": 2195
+  },
+  {
+   "at": "2026-10-05T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2815,
+   "completion_tokens": 2344
+  },
+  {
+   "at": "2026-10-05T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  },
+  {
+   "at": "2026-10-05T06:15:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10043,
+   "completion_tokens": 475
+  },
+  {
+   "at": "2026-10-05T09:20:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7328,
+   "completion_tokens": 736
+  },
+  {
+   "at": "2026-10-06T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3770,
+   "completion_tokens": 1158
+  },
+  {
+   "at": "2026-10-06T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3985,
+   "completion_tokens": 935
+  },
+  {
+   "at": "2026-10-06T04:58:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8088,
+   "completion_tokens": 644
+  },
+  {
+   "at": "2026-10-06T10:03:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9954,
+   "completion_tokens": 772
+  },
+  {
+   "at": "2026-10-06T09:23:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 10159,
+   "completion_tokens": 863
+  },
+  {
+   "at": "2026-10-06T02:59:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8742,
+   "completion_tokens": 802
+  },
+  {
+   "at": "2026-10-06T09:48:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7344,
+   "completion_tokens": 529
+  },
+  {
+   "at": "2026-10-06T09:50:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8178,
+   "completion_tokens": 738
+  },
+  {
+   "at": "2026-10-06T04:37:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7425,
+   "completion_tokens": 460
+  },
+  {
+   "at": "2026-10-06T05:59:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10804,
+   "completion_tokens": 572
+  },
+  {
+   "at": "2026-10-06T10:45:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9661,
+   "completion_tokens": 679
+  },
+  {
+   "at": "2026-10-07T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3779,
+   "completion_tokens": 1297
+  },
+  {
+   "at": "2026-10-07T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4015,
+   "completion_tokens": 1241
+  },
+  {
+   "at": "2026-10-07T05:50:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8545,
+   "completion_tokens": 848
+  },
+  {
+   "at": "2026-10-07T10:17:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8246,
+   "completion_tokens": 779
+  },
+  {
+   "at": "2026-10-07T05:39:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 11092,
+   "completion_tokens": 473
+  },
+  {
+   "at": "2026-10-07T07:07:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9304,
+   "completion_tokens": 685
+  },
+  {
+   "at": "2026-10-08T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4194,
+   "completion_tokens": 1283
+  },
+  {
+   "at": "2026-10-08T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3833,
+   "completion_tokens": 1078
+  },
+  {
+   "at": "2026-10-08T04:02:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7449,
+   "completion_tokens": 944
+  },
+  {
+   "at": "2026-10-08T10:45:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7290,
+   "completion_tokens": 514
+  },
+  {
+   "at": "2026-10-08T03:23:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9644,
+   "completion_tokens": 516
+  },
+  {
+   "at": "2026-10-08T04:28:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6503,
+   "completion_tokens": 454
+  },
+  {
+   "at": "2026-10-09T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3943,
+   "completion_tokens": 980
+  },
+  {
+   "at": "2026-10-09T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4095,
+   "completion_tokens": 983
+  },
+  {
+   "at": "2026-10-09T07:07:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7219,
+   "completion_tokens": 583
+  },
+  {
+   "at": "2026-10-09T03:44:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7792,
+   "completion_tokens": 539
+  },
+  {
+   "at": "2026-10-09T09:20:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10040,
+   "completion_tokens": 725
+  },
+  {
+   "at": "2026-10-09T04:47:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8270,
+   "completion_tokens": 883
+  },
+  {
+   "at": "2026-10-09T03:00:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7408,
+   "completion_tokens": 635
+  },
+  {
+   "at": "2026-10-09T08:49:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9147,
+   "completion_tokens": 937
+  },
+  {
+   "at": "2026-10-10T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3696,
+   "completion_tokens": 1018
+  },
+  {
+   "at": "2026-10-10T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4017,
+   "completion_tokens": 1035
+  },
+  {
+   "at": "2026-10-11T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4183,
+   "completion_tokens": 1075
+  },
+  {
+   "at": "2026-10-11T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4173,
+   "completion_tokens": 1039
+  },
+  {
+   "at": "2026-10-12T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3935,
+   "completion_tokens": 1104
+  },
+  {
+   "at": "2026-10-12T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4123,
+   "completion_tokens": 949
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3213,
+   "completion_tokens": 2130
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3103,
+   "completion_tokens": 2458
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3025,
+   "completion_tokens": 2174
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2830,
+   "completion_tokens": 2553
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3237,
+   "completion_tokens": 2112
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2981,
+   "completion_tokens": 2494
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2967,
+   "completion_tokens": 2175
+  },
+  {
+   "at": "2026-10-12T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2934,
+   "completion_tokens": 2128
+  },
+  {
+   "at": "2026-10-12T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  },
+  {
+   "at": "2026-10-12T03:39:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8142,
+   "completion_tokens": 597
+  },
+  {
+   "at": "2026-10-12T03:02:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8713,
+   "completion_tokens": 778
+  },
+  {
+   "at": "2026-10-12T08:53:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8056,
+   "completion_tokens": 611
+  },
+  {
+   "at": "2026-10-12T04:04:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10126,
+   "completion_tokens": 571
+  },
+  {
+   "at": "2026-10-13T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3619,
+   "completion_tokens": 958
+  },
+  {
+   "at": "2026-10-13T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3797,
+   "completion_tokens": 1033
+  },
+  {
+   "at": "2026-10-13T07:46:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8695,
+   "completion_tokens": 607
+  },
+  {
+   "at": "2026-10-13T03:35:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9409,
+   "completion_tokens": 608
+  },
+  {
+   "at": "2026-10-13T05:27:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8218,
+   "completion_tokens": 522
+  },
+  {
+   "at": "2026-10-13T06:48:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7644,
+   "completion_tokens": 488
+  },
+  {
+   "at": "2026-10-14T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3971,
+   "completion_tokens": 1277
+  },
+  {
+   "at": "2026-10-14T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3611,
+   "completion_tokens": 1135
+  },
+  {
+   "at": "2026-10-14T05:09:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7952,
+   "completion_tokens": 462
+  },
+  {
+   "at": "2026-10-14T02:53:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6763,
+   "completion_tokens": 889
+  },
+  {
+   "at": "2026-10-14T07:14:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7366,
+   "completion_tokens": 730
+  },
+  {
+   "at": "2026-10-14T07:26:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8271,
+   "completion_tokens": 939
+  },
+  {
+   "at": "2026-10-14T05:50:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7628,
+   "completion_tokens": 582
+  },
+  {
+   "at": "2026-10-14T07:08:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9919,
+   "completion_tokens": 508
+  },
+  {
+   "at": "2026-10-15T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3862,
+   "completion_tokens": 968
+  },
+  {
+   "at": "2026-10-15T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3725,
+   "completion_tokens": 1295
+  },
+  {
+   "at": "2026-10-15T06:39:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9307,
+   "completion_tokens": 628
+  },
+  {
+   "at": "2026-10-15T08:35:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8897,
+   "completion_tokens": 796
+  },
+  {
+   "at": "2026-10-16T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3828,
+   "completion_tokens": 1002
+  },
+  {
+   "at": "2026-10-16T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3816,
+   "completion_tokens": 968
+  },
+  {
+   "at": "2026-10-17T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3927,
+   "completion_tokens": 1029
+  },
+  {
+   "at": "2026-10-17T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3735,
+   "completion_tokens": 935
+  },
+  {
+   "at": "2026-10-17T09:53:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6808,
+   "completion_tokens": 748
+  },
+  {
+   "at": "2026-10-18T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4198,
+   "completion_tokens": 1050
+  },
+  {
+   "at": "2026-10-18T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3714,
+   "completion_tokens": 961
+  },
+  {
+   "at": "2026-10-19T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3694,
+   "completion_tokens": 1293
+  },
+  {
+   "at": "2026-10-19T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3601,
+   "completion_tokens": 1279
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3117,
+   "completion_tokens": 2121
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3100,
+   "completion_tokens": 2598
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3134,
+   "completion_tokens": 2575
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2961,
+   "completion_tokens": 2630
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3096,
+   "completion_tokens": 2239
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3137,
+   "completion_tokens": 2626
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3141,
+   "completion_tokens": 2345
+  },
+  {
+   "at": "2026-10-19T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2839,
+   "completion_tokens": 2428
+  },
+  {
+   "at": "2026-10-19T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  },
+  {
+   "at": "2026-10-19T03:03:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9011,
+   "completion_tokens": 531
+  },
+  {
+   "at": "2026-10-19T10:32:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8335,
+   "completion_tokens": 860
+  },
+  {
+   "at": "2026-10-20T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4115,
+   "completion_tokens": 1086
+  },
+  {
+   "at": "2026-10-20T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3838,
+   "completion_tokens": 965
+  },
+  {
+   "at": "2026-10-20T03:37:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6772,
+   "completion_tokens": 709
+  },
+  {
+   "at": "2026-10-20T10:24:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6645,
+   "completion_tokens": 606
+  },
+  {
+   "at": "2026-10-21T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3995,
+   "completion_tokens": 953
+  },
+  {
+   "at": "2026-10-21T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3963,
+   "completion_tokens": 1115
+  },
+  {
+   "at": "2026-10-21T09:38:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9405,
+   "completion_tokens": 507
+  },
+  {
+   "at": "2026-10-21T05:38:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9598,
+   "completion_tokens": 558
+  },
+  {
+   "at": "2026-10-21T02:38:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7172,
+   "completion_tokens": 601
+  },
+  {
+   "at": "2026-10-21T06:53:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9068,
+   "completion_tokens": 867
+  },
+  {
+   "at": "2026-10-21T06:21:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7395,
+   "completion_tokens": 941
+  },
+  {
+   "at": "2026-10-21T03:17:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8613,
+   "completion_tokens": 872
+  },
+  {
+   "at": "2026-10-22T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3954,
+   "completion_tokens": 1060
+  },
+  {
+   "at": "2026-10-22T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3894,
+   "completion_tokens": 1111
+  },
+  {
+   "at": "2026-10-22T04:15:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7201,
+   "completion_tokens": 702
+  },
+  {
+   "at": "2026-10-22T08:41:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8325,
+   "completion_tokens": 812
+  },
+  {
+   "at": "2026-10-22T09:28:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9469,
+   "completion_tokens": 689
+  },
+  {
+   "at": "2026-10-22T07:30:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7114,
+   "completion_tokens": 859
+  },
+  {
+   "at": "2026-10-22T06:59:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10445,
+   "completion_tokens": 602
+  },
+  {
+   "at": "2026-10-22T09:34:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10868,
+   "completion_tokens": 761
+  },
+  {
+   "at": "2026-10-23T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3911,
+   "completion_tokens": 1126
+  },
+  {
+   "at": "2026-10-23T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4005,
+   "completion_tokens": 1107
+  },
+  {
+   "at": "2026-10-23T09:57:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10300,
+   "completion_tokens": 640
+  },
+  {
+   "at": "2026-10-23T06:45:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10361,
+   "completion_tokens": 939
+  },
+  {
+   "at": "2026-10-23T02:46:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9405,
+   "completion_tokens": 944
+  },
+  {
+   "at": "2026-10-23T06:50:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6693,
+   "completion_tokens": 697
+  },
+  {
+   "at": "2026-10-24T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3997,
+   "completion_tokens": 905
+  },
+  {
+   "at": "2026-10-24T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3855,
+   "completion_tokens": 1107
+  },
+  {
+   "at": "2026-10-25T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4078,
+   "completion_tokens": 1009
+  },
+  {
+   "at": "2026-10-25T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3651,
+   "completion_tokens": 1095
+  },
+  {
+   "at": "2026-10-26T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3815,
+   "completion_tokens": 1082
+  },
+  {
+   "at": "2026-10-26T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3820,
+   "completion_tokens": 926
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3017,
+   "completion_tokens": 2369
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2774,
+   "completion_tokens": 2469
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2795,
+   "completion_tokens": 2127
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2794,
+   "completion_tokens": 2530
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3246,
+   "completion_tokens": 2627
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3095,
+   "completion_tokens": 2233
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3041,
+   "completion_tokens": 2232
+  },
+  {
+   "at": "2026-10-26T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3011,
+   "completion_tokens": 2178
+  },
+  {
+   "at": "2026-10-26T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  },
+  {
+   "at": "2026-10-26T02:55:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10818,
+   "completion_tokens": 609
+  },
+  {
+   "at": "2026-10-26T03:47:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9121,
+   "completion_tokens": 547
+  },
+  {
+   "at": "2026-10-26T05:34:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7083,
+   "completion_tokens": 814
+  },
+  {
+   "at": "2026-10-26T05:06:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10862,
+   "completion_tokens": 706
+  },
+  {
+   "at": "2026-10-26T04:17:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8727,
+   "completion_tokens": 594
+  },
+  {
+   "at": "2026-10-26T02:35:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 9152,
+   "completion_tokens": 861
+  },
+  {
+   "at": "2026-10-27T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4018,
+   "completion_tokens": 1081
+  },
+  {
+   "at": "2026-10-27T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3991,
+   "completion_tokens": 1015
+  },
+  {
+   "at": "2026-10-27T06:15:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9668,
+   "completion_tokens": 794
+  },
+  {
+   "at": "2026-10-27T06:18:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8261,
+   "completion_tokens": 474
+  },
+  {
+   "at": "2026-10-28T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3678,
+   "completion_tokens": 1220
+  },
+  {
+   "at": "2026-10-28T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3758,
+   "completion_tokens": 1220
+  },
+  {
+   "at": "2026-10-28T10:40:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9706,
+   "completion_tokens": 628
+  },
+  {
+   "at": "2026-10-28T03:38:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10743,
+   "completion_tokens": 712
+  },
+  {
+   "at": "2026-10-28T10:28:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7428,
+   "completion_tokens": 785
+  },
+  {
+   "at": "2026-10-28T04:32:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8795,
+   "completion_tokens": 467
+  },
+  {
+   "at": "2026-10-28T10:59:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7304,
+   "completion_tokens": 744
+  },
+  {
+   "at": "2026-10-28T02:25:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 8494,
+   "completion_tokens": 497
+  },
+  {
+   "at": "2026-10-29T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3912,
+   "completion_tokens": 1037
+  },
+  {
+   "at": "2026-10-29T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4029,
+   "completion_tokens": 955
+  },
+  {
+   "at": "2026-10-30T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4197,
+   "completion_tokens": 1039
+  },
+  {
+   "at": "2026-10-30T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4050,
+   "completion_tokens": 1052
+  },
+  {
+   "at": "2026-10-30T04:50:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 9138,
+   "completion_tokens": 824
+  },
+  {
+   "at": "2026-10-30T06:25:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 6733,
+   "completion_tokens": 643
+  },
+  {
+   "at": "2026-10-30T10:50:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 7228,
+   "completion_tokens": 898
+  },
+  {
+   "at": "2026-10-30T07:48:00+00:00",
+   "feature": "ask",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 7143,
+   "completion_tokens": 828
+  },
+  {
+   "at": "2026-10-30T04:41:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 10661,
+   "completion_tokens": 543
+  },
+  {
+   "at": "2026-10-30T05:59:00+00:00",
+   "feature": "ask",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 11338,
+   "completion_tokens": 809
+  },
+  {
+   "at": "2026-10-31T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4091,
+   "completion_tokens": 923
+  },
+  {
+   "at": "2026-10-31T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4098,
+   "completion_tokens": 1112
+  },
+  {
+   "at": "2026-11-01T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4036,
+   "completion_tokens": 1215
+  },
+  {
+   "at": "2026-11-01T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4039,
+   "completion_tokens": 987
+  },
+  {
+   "at": "2026-11-02T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 4114,
+   "completion_tokens": 962
+  },
+  {
+   "at": "2026-11-02T21:40:00+00:00",
+   "feature": "relevance",
+   "model": "groq:openai/gpt-oss-120b",
+   "prompt_tokens": 3828,
+   "completion_tokens": 1150
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3226,
+   "completion_tokens": 2511
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2903,
+   "completion_tokens": 2650
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2978,
+   "completion_tokens": 2355
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3073,
+   "completion_tokens": 2412
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3022,
+   "completion_tokens": 2643
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3160,
+   "completion_tokens": 2337
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 3245,
+   "completion_tokens": 2521
+  },
+  {
+   "at": "2026-11-02T00:05:00+00:00",
+   "feature": "tagging",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 2834,
+   "completion_tokens": 2594
+  },
+  {
+   "at": "2026-11-02T00:09:00+00:00",
+   "feature": "explain",
+   "model": "gemini:gemini-3.8-flash",
+   "prompt_tokens": 1700,
+   "completion_tokens": 260
+  }
+ ]
+}

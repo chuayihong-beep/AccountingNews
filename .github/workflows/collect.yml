@@ -1,0 +1,55 @@
+name: Collect news
+
+on:
+  schedule:
+    - cron: "37 21 * * *"   # every day at 05:37 Malaysia time (21:37 UTC)
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+    inputs:
+      only:
+        description: "Only these PAO ids, comma-separated (blank = all). e.g. icai,picpa"
+        required: false
+        default: ""
+      sources:
+        description: "Only these sources (blank = all): website,google_news,email,page_watch"
+        required: false
+        default: ""
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: pao-news-monitor/pao-news-monitor
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Install browser (for sites that block bots or need JavaScript)
+        run: python -m playwright install --with-deps chromium
+      - name: Collect
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          # AI relevance suggestions for new items (same free providers as the weekly brief)
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ONLY: ${{ github.event.inputs.only }}
+          SOURCES: ${{ github.event.inputs.sources }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_KEY" ]; then
+            echo "::error::SUPABASE_URL and SUPABASE_SERVICE_KEY secrets are missing (see README step 3)"; exit 1
+          fi
+          python -m collector --only "$ONLY" --sources "$SOURCES"
