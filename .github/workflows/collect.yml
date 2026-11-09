@@ -1,8 +1,10 @@
 name: Collect news
 
 on:
-  schedule:
-    - cron: "37 21 * * *"   # every day at 05:37 Malaysia time (21:37 UTC)
+  # PAUSED: the scheduled jobs run on the CAPA PC (pao-news-monitor/local-runner), not here.
+  # To run them from GitHub Actions again, un-comment the schedule lines below (and stop the PC runner).
+#  schedule:
+#    - cron: "37 21 * * *"   # every day at 05:37 Malaysia time (21:37 UTC)
   workflow_dispatch:         # "Run workflow" button on the Actions tab
     inputs:
       only:

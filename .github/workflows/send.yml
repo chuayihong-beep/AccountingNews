@@ -3,8 +3,10 @@ name: Send brief
 # Emails approved weekly briefs that an admin has asked to send (Weekly brief > Send to mailing list).
 # Checks every 10 minutes; finishes in seconds when there is nothing to send.
 on:
-  schedule:
-    - cron: "*/10 * * * *"
+  # PAUSED: the scheduled jobs run on the CAPA PC (pao-news-monitor/local-runner), not here.
+  # To run them from GitHub Actions again, un-comment the schedule lines below (and stop the PC runner).
+#  schedule:
+#    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:

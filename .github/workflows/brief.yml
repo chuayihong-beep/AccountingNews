@@ -1,8 +1,10 @@
 name: Brief
 
 on:
-  schedule:
-    - cron: "3 4 * * *"   # every day at 12:03 Malaysia time (04:03 UTC) - after the morning news review; GitHub may start it up to ~30 min late
+  # PAUSED: the scheduled jobs run on the CAPA PC (pao-news-monitor/local-runner), not here.
+  # To run them from GitHub Actions again, un-comment the schedule lines below (and stop the PC runner).
+#  schedule:
+#    - cron: "3 4 * * *"   # every day at 12:03 Malaysia time (04:03 UTC) - after the morning news review; GitHub may start it up to ~30 min late
   workflow_dispatch:         # "Run workflow" button on the Actions tab
     inputs:
       days:
